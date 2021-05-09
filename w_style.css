@@ -1,10 +1,5 @@
 /*Navbar styling*/
-.navbar {
-	position: sticky;
-	top: 0;
-}
-
-ul {
+.navbar ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -12,7 +7,7 @@ ul {
 	background-color: #333333;
 }
 
-li {
+.navbar li {
 	float: left;
 	border-right: 1px solid #ffffff;  
 }
@@ -21,7 +16,7 @@ li:last-child {
 	border-right: none;
 }
 
-li, a {
+.navbar li, a {
 	display: inline;
 	color: #ffffff;
 	text-align: center;
@@ -31,7 +26,12 @@ li, a {
 
 /*Material styling*/
 .content {
-	
+
+}
+
+.citations li p {
+	color: #000000;
+	font-size: 20px;
 }
 
 a {
@@ -50,7 +50,7 @@ h1 {
 
 }
 
-h2 {
+h3 {
 
 }
 
@@ -60,5 +60,6 @@ p {
 
 footer {
 	text-align: center;
-	font-size: 15px
+	font-size: 15px;
+	display: block;
 }
