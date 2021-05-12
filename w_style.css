@@ -24,38 +24,32 @@ li:last-child {
 	text-decoration: none;
 }
 
-/*Material styling*/
-.content {
-
-}
-
-.citations li p {
+/*Material styling*/s
+.bibliography li p {
 	color: #000000;
 	font-size: 20px;
 }
 
-a {
-
+.exlist li{
+	display: inline-block;
+	color: #000000;
+	font-size: 18px
 }
 
-header {
-
+.exlist img {
+	list-style-type: none;
+	margin: 10px;
+	padding: 10px;
+	float: left;
 }
 
-main {
-
+.orgslist li p {
+	color: #000000;
+	font-size: 18px;
 }
 
-h1 {
-
-}
-
-h3 {
-
-}
-
-p {
-
+.titlesocial {
+	text-align: center;
 }
 
 footer {
